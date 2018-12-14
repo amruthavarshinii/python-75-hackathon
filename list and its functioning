@@ -1,0 +1,18 @@
+#to retrive only the first letter of each word in the list
+words=["apple","grapes","banana","orange"]
+lst=[]
+for i in words:
+    lst.append(i[0])
+print(lst)
+
+#to retrive elements from two lists and concatenate
+w1=["amrutha","rekha","srinivas","tarun"]
+w2=["karthik","raghava","sarala"]
+lst=[]
+for i in w1:
+    lst.append(i[0])
+
+for i in w2:
+    lst.append(i[0])
+print(lst)
+    
