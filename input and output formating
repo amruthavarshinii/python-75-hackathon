@@ -1,0 +1,12 @@
+#Input Example
+eg = input('Enter your name:')
+i=int(input("enter a number"))
+f=float(input("enter a number"))
+
+#Output Example
+print(f'Hello {eg:7}')
+
+print("this is the\nfirst line")
+print("amrutha*3")
+print("hello",end=" ")
+
