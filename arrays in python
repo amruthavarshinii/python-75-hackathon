@@ -1,0 +1,12 @@
+# zero matrix multiplication and unit matrix multiplication
+
+import numpy as np
+row_column = [int(i) for i in input('Enter the row and column values: \n ').split()]
+matrix_list  = []
+for i in range(0, row_column[0]):
+    matrix_list.append([int(i) for i in input().split()])
+np_array = np.array(matrix_list)
+np_zeroes = np.zeros((row_column[0], row_column[1]), dtype=np.int)
+np_ones = np.ones((row_column[0], row_column[1]), dtype=np.int)
+print('Zero Matrix Multiplication \n ', np_array*np_zeroes )
+print('Unit Matrix Multiplication \n ', np_array*np_ones)
