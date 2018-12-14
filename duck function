@@ -1,0 +1,16 @@
+class name1:
+    def add(self,x):
+        print(x*x)
+import math
+class name2:
+    def add(self,x):
+        print(math.sqrt(x))
+
+def cal(obj):
+    obj.add(16)
+
+a1=name1()
+cal(a1)
+a2=name2()
+cal(a2)
+        
