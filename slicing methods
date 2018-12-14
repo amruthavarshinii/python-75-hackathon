@@ -1,0 +1,14 @@
+str='this is hackathon'
+
+#general usage of slicing
+print(str[8:17])
+
+#using len() also we get the same result
+print (str[8:len(str)])
+
+#reverse slicing
+str='this is python'
+print(str[13::-1])
+
+#another way of using reverse slicing
+print(str[::-1])
