@@ -1,0 +1,12 @@
+import logging
+logging.basicConfig(filename="lo.txt",level=logging.ERROR)
+try:
+     a=int(input("enter a number"))
+     b=int(input("enter another number"))
+     c=a/b
+
+except Exception as e:
+    logging.exception(e)
+
+else:
+    print("result is:",c)
