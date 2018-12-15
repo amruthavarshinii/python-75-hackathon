@@ -1,0 +1,11 @@
+#Function which accepts multiple arguments
+def args(*arg):
+    print('\n')
+    for i in arg:
+        print(i, end = '')
+
+args('Only one argument')
+args('arg1 ', 'arg2')
+args('Hai ', 'Hello ', 'Welcome')
+args(1 , 2 , 3 , 4)
+args(True , False , False , False , True)
