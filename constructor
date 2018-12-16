@@ -1,0 +1,14 @@
+#constructor:
+class student:
+    def __init__(self):
+        self.name='ammu'
+        self.rollno=287
+        self.id=19
+        self.lst=[20,30,40]
+    def print(self):
+        print('my name is:',self.name)
+        print('my roll-no is:',self.rollno)
+        print('my id is:',self.id)
+        print('my marks are:',self.lst)
+p1=student()
+p1.print()
