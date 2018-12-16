@@ -1,0 +1,19 @@
+#create a file to store data
+
+f=open("sample.txt","w")
+
+str=input("enter text\n")
+
+f.write(str)
+
+f.close()
+
+#readingcharacters from file
+
+f=open("sample.txt",'r')
+
+str=f.read()
+
+print(str)
+
+f.close()
