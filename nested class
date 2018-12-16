@@ -1,0 +1,23 @@
+#Class inside a class
+
+class Student:
+    def __init__(self):
+        self.name = 'srinivas'
+
+    def display(self):
+        print('Name = ', self.name)
+
+    class DateOfBirth:
+        def __init__(self):
+            self.dd = 10
+            self.mm = 05
+            self.yyyy = 1999
+
+        def display(self):
+            print('Date_of_birth= {}/{}/{}'.format(self.dd, self.mm, self.yyyy))
+
+s = Student()
+s.display()
+
+x=Student().DateOfBirth()
+x.display()
