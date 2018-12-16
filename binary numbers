@@ -1,0 +1,10 @@
+n= input()
+if n == bin(int(n, 2))[2:]:
+    n = str(n)
+    if n.count('1')%2 != 0:
+        n=n+'1'
+    else:
+        n=n+'0'
+    print('Parity Checked ')
+    if n.count('1')%2==0:
+        print('Accept the data \n ' + n)
