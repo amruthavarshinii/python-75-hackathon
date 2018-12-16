@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+slices=[50,20,15,15]
+depts=["developer","testing","analysis team","design team"]
+cols=['cyan','blue','red','green']
+plt.pie(slices,labels=depts,colors=cols,startangle=90,shadow=True,autopct='%.1f%%')
+plt.title("INDIAN YOUNGSTERS")
+plt.show(
