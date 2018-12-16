@@ -1,0 +1,26 @@
+#get method in dict
+
+person={"name:":"rekha","exper":5}
+
+print("name",person.get('name'))
+
+print("exper",person.get('exper'))
+
+print("salary is",person.get("salary","500000"))
+
+# create a dictionary
+squares = {1:1, 2:4, 3:9, 4:16, 5:25}
+
+# remove a particular item
+print(squares.pop(4))
+print(squares)
+
+# remove an  item
+# Output: (1, 1)
+print(squares.popitem())
+
+print(squares)
+
+# delete a particular item
+del squares[2]
+print(squares)
