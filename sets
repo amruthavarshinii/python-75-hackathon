@@ -1,0 +1,14 @@
+#finding superset
+a={1,2,3,4,5}
+b={1,2,3}
+c={1,2,3}
+print(a.issuperset(b))
+print(b.issuperset(a))
+print(c.issuperset(b))
+
+#finding subset
+x=set(['bigdata','datascience','spark'])
+y=set(['datascience','spark'])
+issuperset=y<=x
+print(issuperset)
+print(y.issuperset(x))
