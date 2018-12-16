@@ -1,0 +1,12 @@
+x = "a"
+def outer():
+    x = "b"
+    def inner():
+        x = "c"
+        print("from inner:", x)
+
+    inner()
+    print("from outer:", x)
+
+outer()
+print("globally:", x)
