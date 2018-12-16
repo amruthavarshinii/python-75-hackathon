@@ -1,0 +1,24 @@
+from abc import *
+
+class MyInter(ABC):
+    @abstractmethod
+    def connect(self):
+        pass
+
+class Oracle(MyInter):
+    def connect(self):
+        print('Connecting to Oracle database')
+
+class MySql(MyInter):
+    def connect(self):
+        print('Connecting to MySql database')
+
+class Database:
+    str= input('Enter the database name')
+
+    # convert the string into class name eg. MySql Oracle
+    classname = globals()[str]
+
+    x = classname()
+
+    x.connect()
